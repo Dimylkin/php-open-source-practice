@@ -26,4 +26,14 @@ class Calculator() {
     public function multiply(float $a, float $b): float {
         return $a * $b;
     }
+
+    /**
+     * Вычитает одно число из другого
+     * @param float $a Первое число
+     * @param float $b Второе число
+     * @return float Итоговое число после вычитания
+     */
+    public function subtract(float $a, float $b): float {
+        return $a - $b;
+    }
 }
